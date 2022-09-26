@@ -9,7 +9,7 @@ function Opiniones() {
             <div className="carrusel">   
                         <div id="op" >
                               <div className="enc">
-                              <img src={p1}/>
+                              <img src={p1} alt=""/>
                               <div className="estrellas">
                                     <h5>Diego rodriguez</h5>
                                     <div>
@@ -30,7 +30,7 @@ function Opiniones() {
                         </div>
                         <div id="op">
                               <div className="enc">
-                                    <img src={p2}/>
+                                    <img src={p2} alt=""/>
                                     <div className="estrellas">
                                           <h5>Diana Garcia</h5>
                                           <div>
@@ -53,7 +53,7 @@ function Opiniones() {
                         </div>
                         <div id="op">
                               <div className="enc">
-                                    <img src={p1}/>
+                                    <img src={p1} alt=""/>
                                     <div className="estrellas">
                                           <h5>Diego rodriguez</h5>
                                           <div>
