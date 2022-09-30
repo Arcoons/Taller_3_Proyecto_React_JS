@@ -1,7 +1,7 @@
-section{
+section.menuDashboard{
     display: flex;
 }
-.menu{
+.menuDashboard{
     width: 17%;   
     color: white;
     display: flex;
@@ -11,7 +11,7 @@ section{
 }.mrd{
     display: flex;
     flex-direction: column;
-}.mrd Link i{
+}.mrd a i{
     display: flex;
     align-items: center;
 }.encabezado{
@@ -44,12 +44,12 @@ section{
     flex-direction: column;
 }.cerrar{
   width: 100%;
-}.cerrar Link{
+}.cerrar a.CerrarDashboard{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.205);
     display: flex;
 }
-Link{     
+a.ho{     
     text-decoration: none;
     display: flex;
     flex-direction: row;

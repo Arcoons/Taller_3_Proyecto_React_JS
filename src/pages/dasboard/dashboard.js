@@ -1,5 +1,5 @@
 import Menu from "../../components/menuLateral/menu"
-import Formulario from "../../components/dashboard/Formulario"
+import Formulario from '../../components/dashboard/Formulario'
 
 function Dashboard(){
     return(

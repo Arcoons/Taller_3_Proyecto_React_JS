@@ -2,11 +2,10 @@ import "./menu.css"
 import HoteliaBlanco from "./Hotelia horizontal blanco.svg";
 import HoteliaCampana from "./Hotelia horizontal blanco.svg";
 import FotoMobile from "./foto-mobile.png"
-import { Link } from 'react-router-dom'
 
 function Menu(){
     return(
-        <section className="menu">
+        <section className="menuDashboard">
                   <div className="encabezado">
                         <div className="logo">
                             <img src={HoteliaBlanco} alt="hoteliablanco"/>
@@ -30,7 +29,7 @@ function Menu(){
                         </div>
                         
                         <div className="cerrar">
-                              <a href="index.html"><i className="fa-solid fa-arrow-right-from-bracket" id="menu"></i><p>Cerrar Sesion</p></a>
+                              <a href="index.html" className="ho"><i className="fa-solid fa-arrow-right-from-bracket" id="menu"></i><p>Cerrar Sesion</p></a>
                         </div>
                   </div>              
         </section>
