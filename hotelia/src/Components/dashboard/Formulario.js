@@ -1,16 +1,15 @@
-import p2 from "./p2.jpeg"
 import '../../pages/dasboard/dashboard.css'
 
-function Formulario() {
+function Formulario({usuario, imagen}) {
       return(
     <section className="datos">
                   <div className="formulario">
                         <div className="tituloFormulario">
-                              <h1>Bienvenido Usuario</h1> 
+                              <h1>Bienvenido {usuario}</h1> 
                         </div>
                         <div className="info">
                               <div className="logo-img">
-                                    <img src={p2}/>
+                                    <img src={imagen}/>
                                     <div className="carga">
                                           <div id="log-des"><i className="fa-solid fa-file-arrow-up"></i></div>
                                           <div id="log1-des"><i className="fa-solid fa-upload"></i></div>

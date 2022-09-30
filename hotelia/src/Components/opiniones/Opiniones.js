@@ -1,17 +1,15 @@
 import "./Opiniones.css"
-import p1 from "./p1.jpg"
-import p2 from "./p2.jpeg"
 
-function Opiniones() {
+function Opiniones({imagen,nombre,reseña}) {
     return (
         <section className="opiniones">
             <div className="titulo"><h1>Nuestros usuarios dicen...</h1></div>
             <div className="carrusel">   
                         <div id="op" >
                               <div className="enc">
-                              <img src={p1} alt=""/>
+                              <img src={imagen} alt=""/>
                               <div className="estrellas">
-                                    <h5>Diego rodriguez</h5>
+                                    <h5>{nombre}</h5>
                                     <div>
                                           <i className="fa-solid fa-star"></i>
                                           <i className="fa-solid fa-star"></i>
@@ -22,17 +20,14 @@ function Opiniones() {
                               </div>
                               </div>
                               <div className="ip">
-                                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                                          Elit quis enim ultricies ullamcorper.
-                                          Nunc aenean auctor vel diam dictum.
-                                    </p>
+                                    <p>{reseña}</p>
                               </div>
                         </div>
                         <div id="op">
                               <div className="enc">
-                                    <img src={p2} alt=""/>
+                                    <img src={imagen} alt=""/>
                                     <div className="estrellas">
-                                          <h5>Diana Garcia</h5>
+                                          <h5>{nombre}</h5>
                                           <div>
                                           <i className="fa-solid fa-star"></i>
                                           <i className="fa-solid fa-star"></i>
@@ -53,7 +48,7 @@ function Opiniones() {
                         </div>
                         <div id="op">
                               <div className="enc">
-                                    <img src={p1} alt=""/>
+                                    <img src={imagen} alt=""/>
                                     <div className="estrellas">
                                           <h5>Diego rodriguez</h5>
                                           <div>

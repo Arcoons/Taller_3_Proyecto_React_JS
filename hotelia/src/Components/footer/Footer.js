@@ -1,7 +1,7 @@
 import "./Footer.css"
 
 function Footer() {
-    return (
+    return(
         <footer className="footer-container">
             <div className="text-footer">
                 <div className="text t">
@@ -36,7 +36,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
 export default Footer

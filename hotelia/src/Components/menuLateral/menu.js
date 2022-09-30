@@ -4,7 +4,7 @@ import HoteliaCampana from "./hotelia campana.svg";
 import FotoMobile from "./foto-mobile.png"
 import { Link } from 'react-router-dom';
 
-function Menu(){
+function Menu({persona,correo}){
     return(
         <section className="menuDashboard">
                   <div className="encabezado">
@@ -16,8 +16,8 @@ function Menu(){
                         <div className="desc">
                               <div>
                                 <img src={FotoMobile} alt="foto"/>
-                                <h3>Angie Vargas</h3>
-                                <h4>angie@gmail.com</h4>
+                                <h3>{persona}</h3>
+                                <h4>{correo}</h4>
                               </div>
                         </div>         
                   </div>

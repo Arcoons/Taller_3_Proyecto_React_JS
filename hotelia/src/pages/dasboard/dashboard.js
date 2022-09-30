@@ -1,12 +1,17 @@
 import './dashboard.css'
 import Menu from "../../Components/menuLateral/menu"
 import Formulario from '../../Components/dashboard/Formulario'
+import p2 from '../../Components/dashboard/p2.jpeg'
 
 function Dashboard(){
     return(
       <div className="container">
-        <Menu/>
-        <Formulario/>
+        <Menu 
+        persona="Angie vargas"
+        correo="angie@gmail.com" />
+        <Formulario 
+        usuario="usuario"
+        imagen={p2}/>
       </div>
     );
   }

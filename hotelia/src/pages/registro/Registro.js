@@ -8,7 +8,7 @@ function registro(){
       <section id="container-grid">
             <div className="logo">
                 <div className="img">
-                  <img src={Logoblanco} />
+                  <img src={Logoblanco} alt=""/>
                   <div className="bienvenido"><p>Eres más que bienvenido</p></div>
                   <div className="text"><p>un lugar en tu corazó<nav></nav></p></div>
             </div>
