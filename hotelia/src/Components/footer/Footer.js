@@ -2,40 +2,40 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <footer className="footer-container">
-            <div className="text-footer">
-                <div className="text t">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores, necessitatibus impedit tempora nulla nemo?</p>
-                    <div className="redes">
-                        <div className="red">
-                            <i className="fa-brands fa-instagram"></i>
-                            <i className="fa-brands fa-facebook-f"></i>
-                            <i className="fa-brands fa-twitter"></i>
+        <footer class="footer-container">
+            <div class="text-footer">
+                  <div class="text t">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores, necessitatibus impedit tempora nulla nemo?</p>
+                        <div class="redes">
+                              <div class="red">
+                              <i class="fa-brands fa-instagram"></i>     
+                              <i class="fa-brands fa-facebook-f"></i>
+                              <i class="fa-brands fa-twitter"></i>                            
+                              </div>   
                         </div>
-                    </div>
-                    <hr className="hr" />
-                </div>
-                <div className="text t2">
-                    <div className="icons">
+                        <hr class="hr" />
+                  </div>
+                  <div class="text t2">
+                        <div class="icons">
+                        <div class="logo-logo">
+                               <i class="fa-solid fa-location-dot ti" id="cont"></i><p>AVENIDA CARRERA 8, #12A-42, BOGOTA DC, COLOMBIA</p>
+                        </div>  
+                        <div class="logo-logo" >
+                              <i class="fa-solid fa-phone ti" id="cont"></i><p>+57 601 4567899</p>
+                        </div>
+                        </div>
+                        <hr class="hr" />        
+                  </div>
+                  <div class="text t3">
                         <div>
-                            <i className="fa-solid fa-location-dot"></i><p>AVENIDA CARRERA 8, #12A-42, BOGOTA DC, COLOMBIA</p>
+                              <p>Políticas de privacidad</p>
                         </div>
-                        <div>
-                            <i className="fa-solid fa-phone"></i><p>+57 601 4567899</p>
-                        </div>
-                    </div>
-                    <hr className="hr" />
-                </div>
-                <div className="text t3">
-                    <div>
-                        <p>Políticas de privacidad</p>
-                    </div>
-                    <div id="separador">
-                        <p>Políticas de privacidad</p>
-                    </div>
-                </div>
+                        <div id="separador">
+                              <p>Políticas de privacidad</p>
+                        </div>       
+                  </div>
             </div>
-        </footer>
+      </footer>
     )
 }
 
