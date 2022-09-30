@@ -1,8 +1,9 @@
-import './Registro.css'
+import '../../Components/css-registro/Registro.css'
 import Logoblanco from './Hotelia horizontal blanco.svg'
 
 function registro(){
     return(
+<body className='registro'>
       <section id="container-grid">
             <div className="logo">
                 <div className="img">
@@ -26,41 +27,41 @@ function registro(){
                         </div>
                         <div id="inf">
                               <label for="num-doc">Número documento</label>
-                              <input type="text" name="num-doc" placeholder="10000000" />
+                              <input type="text" name="num-doc" placeholder="10000000" className='inputsRegistro' />
                         </div> 
                   </div>
                   <div className="nom">
                         <div id="inf">
                               <label for="nombres">Nombres</label>
-                              <input type="text" name="nombres" placeholder="Nombres..." />
+                              <input type="text" name="nombres" placeholder="Nombres..." className='inputsRegistro' />
                         </div>
                         <div id="inf">
                               <label for="Apellidos">Apellidos</label>
-                              <input type="text" name="Apellidos" placeholder="Apellidos..." />
+                              <input type="text" name="Apellidos" placeholder="Apellidos..." className='inputsRegistro' />
                         </div> 
                   </div>
                   <div className="dat">
                         <div id="inf">
                               <label for="FecNac">Fecha de nacimiento</label>
-                              <input type="date" name="FecNac" />
+                              <input type="date" name="FecNac" className='inputsRegistro' />
                         </div>
                         <div id="inf">
                               <div className="radio">
                               <label for="fecha">Género</label>
-                              <input type="radio" name="genero" />Mujer
-                              <input type="radio" name="genero" />Hombre
-                              <input type="radio" name="genero" />Otro
+                              <input type="radio" name="genero" className='inputsRegistro' />Mujer
+                              <input type="radio" name="genero" className='inputsRegistro' />Hombre
+                              <input type="radio" name="genero" className='inputsRegistro' />Otro
                               </div>
                         </div> 
                   </div>
                   <div className="corre">
                         <div id="inf">
                               <label for="Email">Email</label>
-                              <input type="email" name="Email" placeholder="correo..." />
+                              <input type="email" name="Email" placeholder="correo..." className='inputsRegistro' />
                         </div>
                         <div id="inf">
                               <label for="tel">Teléfono de contacto</label>
-                              <input type="text" name="tel" placeholder="teléfono..." />
+                              <input type="text" name="tel" placeholder="teléfono..." className='inputsRegistro' />
                         </div> 
                   </div>
                   <div className="orig">
@@ -76,22 +77,22 @@ function registro(){
                         </div>
                         <div id="inf">
                               <label for="photo">Foto</label>
-                              <input type="text" name="photo" placeholder="selecionar archivo" />
+                              <input type="text" name="photo" placeholder="selecionar archivo" className='inputsRegistro' />
                         </div> 
                   </div>
                   <div className="contra">
                         <div id="inf">
                               <label for="password">Contraseña</label>
-                              <input type="password" name="password" />
+                              <input type="password" name="password" className='inputsRegistro' />
                         </div>
                         <div id="inf">
                               <label for="password2">Confirmar contraseña</label>
-                              <input type="password2" name="password2" />
+                              <input type="password2" name="password2" className='inputsRegistro' />
                         </div> 
                     </div>
                 
                 <div className="terminos">
-                  <a href="Terminos.html"><p> <input type="checkbox" /> Términos y condiciones</p></a>
+                  <a href="Terminos.html"><p> <input type="checkbox" className='inputsRegistro' /> Términos y condiciones</p></a>
                   <a href="login.html"><button>Ingresar</button></a>
                 </div>
                 
@@ -102,6 +103,7 @@ function registro(){
                 
             
         </section> 
+</body>
     );
 }
 export default registro;

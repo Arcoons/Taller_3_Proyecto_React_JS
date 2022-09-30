@@ -1,29 +1,30 @@
-import './Login.css'
+import '../../Components/css-login/Login.css'
 import persona from './Hotelia horizontal negro.svg' ;
 import {Link} from 'react-router-dom';
 function Login(){
     return(
-    <section>
+<body className='loginBody'>
+    <section className='sectionLogin'>
         <div id="logo">
             <a href=""><img src={persona} /></a>
         </div>
-        <div class="login">
-            <i class="fa-solid fa-user" />
+        <div className="login">
+            <i className="login fa-solid fa-user" />
             <form action="#">
-                <div class="iniciosesion">
+                <div className="iniciosesion">
                     <label for="">Usuario</label>
-                    <input type="text" />
+                    <input type="text" className='usuario' />
                 </div>
-                <div class="iniciosesion">  
+                <div className="iniciosesion">  
                     <label for="">Contraseña</label>
-                    <input type="text" />
+                    <input type="text" className='contra' />
                 </div>
-                <button id="boton"><a href="Dashboard.html">Ingresar</a></button>
+                <button id="boton"><Link to='/dashboard'>Ingresar</Link></button>
                 <p>¿No tienes una cuenta?<Link to='/registro'>Regístrate aquí.</Link> </p>
             </form>
         </div>
-        </section>
-        
+    </section>
+</body>
     );
 }
 export default Login;

@@ -6,7 +6,9 @@ import Registro from './pages/registro/Registro';
 import Login from './pages/login/Login.js';
 
 
+
 import './index.css';
+
 
 
 
