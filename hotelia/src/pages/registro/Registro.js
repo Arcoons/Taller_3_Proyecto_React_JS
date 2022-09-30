@@ -6,7 +6,7 @@ function registro(){
     return(
 <body className='registro'>
       <section id="container-grid">
-            <div className="logo">
+            <div className="logoRegi">
                 <div className="img">
                   <img src={Logoblanco} alt=""/>
                   <div className="bienvenido"><p>Eres más que bienvenido</p></div>
@@ -81,7 +81,7 @@ function registro(){
                               <input type="text" name="photo" placeholder="selecionar archivo" className='inputsRegistro' />
                         </div> 
                   </div>
-                  <div className="contra">
+                  <div className="contraRegi">
                         <div id="inf">
                               <label for="password">Contraseña</label>
                               <input type="password" name="password" className='inputsRegistro' />

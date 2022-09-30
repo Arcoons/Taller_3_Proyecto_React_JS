@@ -73,7 +73,7 @@ label
     font-family: 'Roboto', sans-serif;
     text-shadow: -1px 1px rgb(97, 97, 97);
 }
-.usuario, .contra
+.usuario, .contraLogi
 {
     padding-bottom: 8px;
     border: none;
@@ -189,7 +189,7 @@ p
         font-family: 'Roboto', sans-serif;
         text-shadow: -1px 1px rgb(97, 97, 97);
     }
-    .usuario,.contra{
+    .usuario,.contraLogi{
         width: 100%;
         padding-bottom: 8px;
         border: none;

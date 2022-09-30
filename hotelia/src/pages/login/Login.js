@@ -17,7 +17,7 @@ function Login(){
                 </div>
                 <div className="iniciosesion">  
                     <label for="">Contraseña</label>
-                    <input type="text" className='contra' />
+                    <input type="text" className='contraLogi' />
                 </div>
                 <button id="boton"><Link to='/dashboard'>Ingresar</Link></button>
                 <p>¿No tienes una cuenta?<Link to='/registro'>Regístrate aquí.</Link> </p>
