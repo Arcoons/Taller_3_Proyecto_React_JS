@@ -18,27 +18,27 @@ function Formulario() {
                                     <button>Cambiar Contraseña</button>
                               </div>
                               <div className="form">
-                                    <div className="doc">
+                                    <div className="docDash">
                                           <div id="inf">
                                                 <label for="tip-doc">Tipo de documento</label>
-                                                <input type="text" name="tip-doc" placeholder="CC"/>
+                                                <input type="text" name="tip-doc" placeholder="CC" className="inputsDash"  />
                                           </div>
                                           <div id="inf">
                                                 <label for="num-doc">Número documento</label>
-                                                <input type="text" name="num-doc" placeholder="10000000"/>
+                                                <input type="text" name="num-doc" placeholder="10000000" className="inputsDash" />
 
                                           </div>
                                           
                                           
                                     </div>
-                                    <div className="nom">
+                                    <div className="nomDash">
                                           <div id="inf">
                                                 <label for="nombre">Nombres</label>
-                                                <input type="text" name="nombre" placeholder="Nombre.."/>
+                                                <input type="text" name="nombre" placeholder="Nombre.." className="inputsDash"/>
                                           </div>
                                           <div id="inf">
                                                 <label for="Apellido">Apellidos</label>
-                                                <input type="text" name="Apellido" placeholder="Apellidos.."/>
+                                                <input type="text" name="Apellido" placeholder="Apellidos.." className="inputsDash"/>
 
                                           </div>
                                     </div>
@@ -46,11 +46,11 @@ function Formulario() {
 
                                           <div id="inf">
                                                 <label for="fecha">Fecha nacimiento</label>
-                                                <input type="text" name="fecha" placeholder="DD/MM/YY"/>
+                                                <input type="text" name="fecha" placeholder="DD/MM/YY" className="inputsDash"/>
                                           </div>
                                           <div id="inf">
                                                 <label for="origen">País de origen</label>
-                                                <input type="text" name="origen" placeholder="País.."/>
+                                                <input type="text" name="origen" placeholder="País.." className="inputsDash"/>
 
                                           </div>
                                     </div>
@@ -58,14 +58,14 @@ function Formulario() {
                                           <div id="inf">
                                                 <div className="radio">
                                                 <label for="fecha">Género</label>
-                                                <input type="radio" name="genero"/>Mujer
-                                                <input type="radio" name="genero"/>Hombre
-                                                <input type="radio" name="genero"/>Otro
+                                                <input type="radio" name="genero" className="inputsDash"/>Mujer
+                                                <input type="radio" name="genero" className="inputsDash"/>Hombre
+                                                <input type="radio" name="genero" className="inputsDash"/>Otro
                                                 </div>
                                           </div>
                                           <div id="inf">
                                                 <label for="tel">Teléfono de contacto</label>
-                                                <input type="text" name="tel" placeholder="Teléfono"/>
+                                                <input type="text" name="tel" placeholder="Teléfono"className="inputsDash" />
 
                                           </div>
 
@@ -76,14 +76,14 @@ function Formulario() {
                                           </div>
 
                                     </div>
-                                    <div className="contra">
+                                    <div className="contraDash">
                                           <div id="inf">
                                                 <label for="password">Contraseña</label>
-                                                <input type="password" name="password"/>
+                                                <input type="password" name="password" className="inputsDash"/>
                                           </div>
                                           <div id="inf">
                                                 <label for="passwordd">Confirmar contraseña</label>
-                                                <input type="password" name="passwordd"/>
+                                                <input type="password" name="passwordd" className="inputsDash"/>
 
                                           </div>
 

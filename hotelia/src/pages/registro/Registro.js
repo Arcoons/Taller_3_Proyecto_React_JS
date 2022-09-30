@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../Components/css-registro/Registro.css'
 import Logoblanco from './Hotelia horizontal blanco.svg'
 
@@ -93,7 +94,7 @@ function registro(){
                 
                 <div className="terminos">
                   <a href="Terminos.html"><p> <input type="checkbox" className='inputsRegistro' /> Términos y condiciones</p></a>
-                  <a href="login.html"><button>Ingresar</button></a>
+                  <Link to="/login"><button>Ingresar</button></Link>
                 </div>
                 
             </div>

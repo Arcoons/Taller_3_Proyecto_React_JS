@@ -2,6 +2,7 @@ import '../../pages/dasboard/dashboard.css'
 import HoteliaBlanco from "./Hotelia horizontal blanco.svg";
 import HoteliaCampana from "./hotelia campana.svg";
 import FotoMobile from "./foto-mobile.png"
+import { Link } from 'react-router-dom';
 
 function Menu(){
     return(
@@ -29,7 +30,7 @@ function Menu(){
                         </div>
                         
                         <div className="cerrar">
-                              <a href="index.html" className="ho"><i className="fa-solid fa-arrow-right-from-bracket" id="menu"></i><p>Cerrar Sesion</p></a>
+                              <Link to="/" className="ho"><i className="fa-solid fa-arrow-right-from-bracket" id="menu"></i><p>Cerrar Sesion</p></Link>
                         </div>
                   </div>              
         </section>

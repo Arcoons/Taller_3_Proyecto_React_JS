@@ -12,7 +12,7 @@
   --blanco: #fff;
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
-.datos{   
+.datos{  
     background: url(./habitacion.jpeg);
     background-size: cover;
     display: flex;
@@ -68,12 +68,12 @@
     font-size: 1em;
     width: 65%;
 }
-.doc{
+.docDash{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
-}.nom{
+}.nomDash{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -90,12 +90,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}.contra{
+}.contraDash{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}.form input{
+}.form .inputsDash{
     margin-top: 4%;
     font-size: 1em;
     color: var(--negro2);
@@ -129,7 +129,7 @@
 #inf{
     display: flex;
     flex-direction: column;
-}#inf input{
+}#inf .inputsDash{
     width: 130%;
 }.radio{
     display: flex;
@@ -319,7 +319,7 @@ a.ho{
     }.form {
         font-size: 1.3em;
         width: 95%;
-    }#inf input{
+    }#inf .inputsDash{
         width: 120%;
     }
 }
