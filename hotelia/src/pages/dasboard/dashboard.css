@@ -20,14 +20,14 @@
 }.logo-img{
     width: 30%;
 }
-.formulario{
+.formularioDash{
     background-color: rgba(255, 255, 255, 0.425);
     margin-left: 22%;
     margin-top: 3%;
     border-radius: 5px;
     width: 75%;
     height: 90%;
-}.form img{
+}.formDah img{
     width: 20%;
 }.tituloFormulario{
     display: flex;
@@ -64,7 +64,7 @@
     margin-left: 3%;
     display: flex;
     flex-direction: row;
-}.form{
+}.formDash{
     font-size: 1em;
     width: 65%;
 }
@@ -95,14 +95,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}.form .inputsDash{
+}.formDash .inputsDash{
     margin-top: 4%;
     font-size: 1em;
     color: var(--negro2);
     height: 2em;
     border: none;
     background-color: rgba(255, 255, 255, 0.719);
-}.form label{
+}.formDash label{
     font-size: 1.2em;
 
 }
@@ -126,12 +126,12 @@
 
 }
 
-#inf{
+#infDash{
     display: flex;
     flex-direction: column;
-}#inf .inputsDash{
+}#infDash .inputsDash{
     width: 130%;
-}.radio{
+}.radioDash{
     display: flex;
     flex-flow: row nowrap;
 }
@@ -204,7 +204,7 @@ a.ho{
     height: 100%;
 }
 @media screen and (min-width: 320px) and (max-width: 639px){
-    .formulario{
+    .formularioDash{
         background-color: rgba(255, 255, 255, 0.445);
     }
     .logo .desktop{
@@ -257,7 +257,7 @@ a.ho{
     }.genero{
         display: flex;
         flex-direction: column;
-    }.genero .radio{
+    }.genero .radioDash{
     
         font-size: 0.8em;
         display: flex;
@@ -266,9 +266,9 @@ a.ho{
         width: 80%;
     }.cambio button{
         width: 80%;
-    }.radio{
+    }.radioDash{
         margin-bottom: 3em;
-    }.form{
+    }.formDash{
         width: 80%;
     }.datos{
         background: rgb(153, 149, 149);
@@ -282,7 +282,7 @@ a.ho{
     }section.menuDashboard{
         font-size: 0.9em;
         width: 25%;
-    }.formulario{
+    }.formularioDash{
         margin-left: 28%;
         width: 70%;
     }.info{
@@ -305,7 +305,7 @@ a.ho{
         flex-direction: column;
         width: 30%;
         
-    }.genero .radio{
+    }.genero .radioDash{
     
         font-size: 1em;
         display: flex;
@@ -314,12 +314,12 @@ a.ho{
         width:35%;
     }.cambio button{
         width:35%;
-    }.radio{
+    }.radioDash{
         margin-bottom: 120%;
-    }.form {
+    }.formDah {
         font-size: 1.3em;
         width: 95%;
-    }#inf .inputsDash{
+    }#infDash .inputsDash{
         width: 120%;
     }
 }

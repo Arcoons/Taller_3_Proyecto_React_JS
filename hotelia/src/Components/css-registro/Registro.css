@@ -87,7 +87,7 @@
 }.orig{
     display: flex;
     justify-content: space-around;
-}.contra{
+}.contraRegi{
     display: flex;
     justify-content: space-around;
 }.terminos{
@@ -161,7 +161,7 @@
     }.orig{
         display: flex;
         flex-direction: column;
-    }.contra{
+    }.contraRegi{
         
         display: flex;
         flex-direction: column;
