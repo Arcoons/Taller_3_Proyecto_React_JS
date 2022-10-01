@@ -20,7 +20,7 @@ function Login(){
                     <input type="text" className='contraLogi' />
                 </div>
                 <button id="boton"><Link to='/dashboard'>Ingresar</Link></button>
-                <p>¿No tienes una cuenta?<Link to='/registro'>Regístrate aquí.</Link> </p>
+                <p className='pLogi'>¿No tienes una cuenta?<Link to='/registro'>Regístrate aquí.</Link> </p>
             </form>
         </div>
     </section>

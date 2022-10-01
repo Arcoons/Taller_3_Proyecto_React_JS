@@ -159,11 +159,11 @@ section.menuDashboard{
     height: 30%;  
    background: url(foto.jpeg);
    background-size: cover;
-}.logo img{
+}.logoDash img{
     width: 60%;   
-}.logo .mobile{
+}.logoDash .mobileDash{
   display: none;
-}.logo{
+}.logoDash{
     display: flex;
     justify-content: center;
 }.desc{
@@ -207,9 +207,9 @@ a.ho{
     .formularioDash{
         background-color: rgba(255, 255, 255, 0.445);
     }
-    .logo .desktop{
+    .logoDash .desktop{
         display: none;
-    }.logo .mobile{
+    }.logoDash .mobileDash{
         display: block;
     }.desc img{
         display: block;
