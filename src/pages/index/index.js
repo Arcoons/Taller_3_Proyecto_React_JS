@@ -1,14 +1,14 @@
-import Banner from '../../components/banner/Banner';
-import Descripcion from '../../components/descripcion/Descripcion';
-import Feature from '../../components/feature/Feature';
-import Nav from '../../components/nav/Nav';
-import Ubicanos from '../../components/ubicanos/Ubicanos';
-import Opiniones from '../../components/opiniones/Opiniones';
-import Footer from '../../components/footer/Footer';
+import Banner from '../../Components/banner/Banner';
+import Descripcion from '../../Components/descripcion/Descripcion';
+import Feature from '../../Components/feature/Feature';
+import Nav from '../../Components/nav/Nav';
+import Ubicanos from '../../Components/ubicanos/Ubicanos';
+import Opiniones from '../../Components/opiniones/Opiniones';
+import Footer from '../../Components/footer/Footer'
 
 function index(){
   return(
-    <div className="container">
+    <div>
     <Nav/>
     <Banner/>
     <Descripcion/>
