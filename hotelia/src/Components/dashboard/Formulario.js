@@ -21,11 +21,11 @@ function Formulario() {
                                     <div className="docDash">
                                           <div id="infDash">
                                                 <label for="tip-doc">Tipo de documento</label>
-                                                <input type="text" name="tip-doc" placeholder="CC" className="inputsDash"  />
+                                                <input type="text" name="tip-doc" placeholder="CC" className="inputsDash"/>
                                           </div>
-                                          <div id="infDah">
+                                          <div id="infDash">
                                                 <label for="num-doc">Número documento</label>
-                                                <input type="text" name="num-doc" placeholder="10000000" className="inputsDash" />
+                                                <input type="text" name="num-doc" placeholder="10000000" className="inputsDash"/>
 
                                           </div>
                                           
