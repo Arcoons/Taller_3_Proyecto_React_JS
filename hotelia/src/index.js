@@ -7,7 +7,7 @@ import Login from './pages/login/Login.js';
 import Index from './pages/index/index';
 import Dashboard from './pages/dasboard/dashboard';
 import ERROR from './Components/Error/Error';
-
+import Users from './pages/usuarios/Users'
 
 
 import './index.css';
@@ -24,6 +24,7 @@ root.render(
     <Route path='/login' element={<Login />}></Route>
     <Route path='/Error' element={<ERROR/>}></Route>
     <Route path='/registro' element={<Registro />}></Route>
+    <Route path='/usuarios' element={<Users />}></Route>
     </Routes>
   </BrowserRouter>
   

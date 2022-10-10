@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom';
 import '../../Components/css-registro/Registro.css'
 import Logoblanco from './Hotelia horizontal blanco.svg'
+import axios from "axios";
+import { useState } from "react";
+import { Container, Form } from "react-bootstrap";
+import { useNavigate } from "react-router";
+import Swal from 'sweetalert2';
+
 
 function registro(){
+      
     return(
 <body className='registro'>
       <section id="container-grid">
