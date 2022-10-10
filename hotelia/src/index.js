@@ -8,6 +8,7 @@ import Index from './pages/index/index';
 import Dashboard from './pages/dasboard/dashboard';
 import ERROR from './Components/Error/Error';
 import Users from './pages/usuarios/Users'
+import Modal from './pages/modal/listarHuesped';
 
 
 import './index.css';
@@ -25,6 +26,7 @@ root.render(
     <Route path='/Error' element={<ERROR/>}></Route>
     <Route path='/registro' element={<Registro />}></Route>
     <Route path='/usuarios' element={<Users />}></Route>
+    <Route path='/listarHuesped/' element={<Modal/>}></Route>
     </Routes>
   </BrowserRouter>
   

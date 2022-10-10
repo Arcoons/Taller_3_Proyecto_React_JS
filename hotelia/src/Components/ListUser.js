@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect,useState} from "react";
+import { Link } from 'react-router-dom';
 
 function ListUser(){
 
@@ -26,7 +27,9 @@ function ListUser(){
     //console.log(list)
     
     return(
+        
         <>
+        <p><Link to='/'>volver</Link></p>
             <table border="1">
                 <tr>
                     <th>No. Documento</th>
