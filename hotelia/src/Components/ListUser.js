@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Table from 'react-bootstrap/Table';
 import { useEffect,useState} from "react";
 import { Link } from 'react-router-dom';
 
@@ -30,37 +31,37 @@ function ListUser(){
         
         <>
         <p><Link to='/'>volver</Link></p>
-            <table border="1">
+        <Table dark>
                 <tr>
-                    <th>No. Documento</th>
-                    <th>Tipo <br/> Documento</th>
-                    <th>Nombre Apellido</th>
-                    <th>Fecha de nacimiento</th>
-                    <th>Genero</th>
-                    <th>Email</th>
-                    <th>Telefono</th>
-                    <th>Pais de origen</th>
-                    <th>Contraseña</th>
-                    <th>Tipo usuario</th>
+                    <th scope="row">No. Documento</th>
+                    <th scope="row">Tipo <br/> Documento</th>
+                    <th scope="row">Nombre Apellido</th>
+                    <th scope="row">Fecha de nacimiento</th>
+                    <th scope="row">Genero</th>
+                    <th scope="row">Email</th>
+                    <th scope="row">Telefono</th>
+                    <th scope="row">Pais de origen</th>
+                    <th scope="row">Contraseña</th>
+                    <th scope="row">Tipo usuario</th>
                 </tr>
                 {list.map((us,index)=>(
                     <tr>
-                        <td>{us._id}</td>
-                        <td>{us.tipodoc}</td>
-                        <td>{us.nombre} {us.apellido}</td>
-                        <td>{us.fnacimiento}</td>
-                        <td>{us.genero}</td>
-                        <td>{us.email}</td>
-                        <td>{us.telefono}</td>
-                        <td>{us.paisorigen}</td>
-                        <td>{us.password}</td>
-                        <td>{us.tipouser}</td>
+                        <td scope="row">{us._id}</td>
+                        <td scope="row">{us.tipodoc}</td>
+                        <td scope="row">{us.nombre} {us.apellido}</td>
+                        <td scope="row">{us.fnacimiento}</td>
+                        <td scope="row">{us.genero}</td>
+                        <td scope="row">{us.email}</td>
+                        <td scope="row">{us.telefono}</td>
+                        <td scope="row">{us.paisorigen}</td>
+                        <td scope="row">{us.password}</td>
+                        <td scope="row">{us.tipouser}</td>
                         
                     </tr>
                 ))
                 }
                 
-            </table>
+            </Table>
         </>
     );
 

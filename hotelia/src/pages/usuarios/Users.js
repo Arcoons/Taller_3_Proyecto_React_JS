@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import ListUser from "../../Components/ListUser";
+import logo from"./Hotelia horizontal negro.svg";
 
 function Users(){
     return(
         <>
             <Link to="/new">Nuevo Usuario</Link>
-            <h1>Lista Usuarios</h1>
+            
+          
+            <img src={logo}/>
 
             <ListUser/>
         </>

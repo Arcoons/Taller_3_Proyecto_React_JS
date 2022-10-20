@@ -119,6 +119,17 @@
     height: 2em;
     color: #FFFEFC;
     background-color: #000;
+}.volver a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 2%;
+}.volver button{
+    font-size: 0.9em;
+     width: 8em;
+    height: 2em;
+    color: #FFFEFC;
+    background-color: #000;
 }.text{
     display: none;
 }

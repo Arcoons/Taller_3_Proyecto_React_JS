@@ -136,7 +136,11 @@ function Registro() {
                                     <div className="terminos">
                                           <a href="Terminos.html"><p> <input type="checkbox" className='inputsRegistro' /> Términos y condiciones</p></a>
                                           <button onClick={handleSubmit}>Ingresar</button>
+                                          
 
+                                    </div>
+                                    <div className='volver'>
+                                    <button><Link to='/login'>volver</Link></button>
                                     </div>
                                     
                                    
